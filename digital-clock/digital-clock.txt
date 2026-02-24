@@ -1,0 +1,59 @@
+digital-clock 
+explicações
+1️⃣ function updateClock() { ... }
+
+Estamos criando uma função chamada updateClock
+
+Função = um bloco de código que podemos executar sempre que quisermos
+
+Por que função?
+
+Porque o relógio precisa atualizar a cada segundo, então é mais fácil organizar tudo dentro de uma função
+
+Também deixa o código mais limpo e reaproveitável
+
+2️⃣ const now = new Date();
+
+new Date() cria um objeto de data e hora atual do seu computador
+
+now vai armazenar a data e hora neste exato momento
+
+Exemplo de now no console:
+
+Mon Feb 24 2026 14:32:10 GMT+0100 (Central European Standard Time)
+
+Isso é a base do relógio, porque sem a hora atual não tem como mostrar nada
+
+3️⃣ const hours = now.getHours();
+
+getHours() pega apenas a hora atual (0 a 23)
+
+Guardamos em hours para usar depois
+
+Exemplo: se for 14h32, hours = 14
+
+4️⃣ const minutes = now.getMinutes();
+
+getMinutes() pega os minutos atuais (0 a 59)
+
+Exemplo: se for 14h32, minutes = 32
+
+5️⃣ const seconds = now.getSeconds();
+
+getSeconds() pega os segundos atuais (0 a 59)
+
+Exemplo: se for 14h32:45, seconds = 45
+
+6️⃣ clock.textContent = ${hours}:${minutes}:${seconds};
+
+clock → variável que selecionamos no STEP 1 (<p id="clock">)
+
+textContent → altera o texto dentro do elemento HTML
+
+${hours}:${minutes}:${seconds} → template literal, monta o horário no formato HH:MM:SS
+
+Resultado na tela:
+
+14:32:45
+
+Isso é DOM manipulation: estamos pegando o elemento HTML e atualizando seu conteúdo com a hora atual
