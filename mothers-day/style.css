@@ -1,0 +1,50 @@
+body{
+    background-color: #e3edf7 ;
+    font-family: "Winky Sans", normal;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
+    object-position: left;
+}
+.box {
+  width: 500px;
+  height: 750px;
+  padding: 20px;
+  border: 2px solid #cfe3f1;
+  background: #cfe3f1;
+  border-radius: 10%;
+}
+.infos{
+    font-size: larger;
+    text-align: center;
+}
+nav {
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  padding: 10px 1px;
+  background-color: #8fb6d8;
+  border: 2px solid #8fb6d8;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #edf4fa;
+  margin: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
