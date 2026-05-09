@@ -1,0 +1,131 @@
+body{
+    background-color: #e3edf7 ;
+    font-family: "Winky Sans", normal;
+    margin: 1%;
+    
+}
+
+h1{
+  display: inline-block;
+  padding: 10px 1px;
+  background-color: #8fb6d8;
+  border: 2px solid #8fb6d8;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #edf4fa;
+  margin: 20px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.container img {
+  width: 200px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+
+.photo {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.photo1 {
+  position: absolute;
+  top: 100px;
+  right: 80px;
+}
+
+.photo2 {
+  position: absolute;
+  bottom: 100px;
+  left: 300px;
+}
+
+.photo3 {
+  position: absolute;
+  bottom: 100px;
+  left: 800px;
+}
+
+.first {
+  position: absolute;
+  top: 150px;
+  left: 35%;
+  font-size: 24px;
+}
+
+.second {
+  position: absolute;
+  top: 200px;
+  left: 35%;
+  font-size: 24px;
+}
+
+.info {
+    position: absolute;
+    top: 300px;
+    left: 40%;
+    font-size: 30px;
+    
+}
+
+.info1{
+    position: absolute;
+    top: 355px;
+    left: 45%;
+    font-size: 24px;
+}
+
+.container1 {
+  position: relative;
+  width: 100%;
+  height: 30vh;
+}
+
+
+.container1 img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.flower {
+    position: absolute;
+    left: 40%;
+}
+
+.flower1{
+    position: absolute;
+    left: 38%;
+    top: 1100px;
+    font-size: 20px;
+}
+
+.disclaimer{
+    position: absolute;
+    left: 40%;
+    top: 1130px;
+    font-size: 15px;
+
+}
+
+button{
+  background-color: #8fb6d8;
+  color: #e3edf7;
+  width: 10%;
+  border-radius: 2px;
+  border-color: #8fb6d8;
+  margin: 20px;
+}
+
+
+
