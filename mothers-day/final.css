@@ -55,6 +55,13 @@ h1{
   left: 800px;
 }
 
+.photo4{
+    position:absolute;
+    left: 40%;
+    bottom: 100px;
+    
+}
+
 .first {
   position: absolute;
   top: 150px;
